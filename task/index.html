@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section id="s1">            
+        <h1 id='h1' >Holla!</h1>
+        <button id='btn1' class="btn">Start</button>
+    </section>
+    <section id="s2" class="s">
+        <button id="btn2" class="btn">Registration</button>
+        <button id="btn3" class="btn">Login</button>
+    </section>
+    <section id="s3" class="s">
+        <form>
+            <h2>Registration Form</h2><br>
+            <label for="n">Name: </label>
+            <input id="n" type="text" name="name" required><br><br>
+            <label for="e">Email: </label>
+            <input id="e" type="email" name="email" required><br><br>
+            <label for="a">DOB: </label>
+            <input id="a" type="date" name="age" required><br><br>
+            <label>Gender:</label>
+            <label class="g">
+            <input type='radio' name='gender' value='Female' checked> Female</label><br>
+            <label class="g">
+            <input type='radio' name='gender' value='Male' id="m"> Male</label><br><br>
+            <label for="'rol">Role:</label>
+            <select id ='rol' required>
+                <option disabled  selected>Current role</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Part Time Job</option>
+                <option>Other</option>
+                </select><br><br>
+            <label for="p">Password: </label>
+            <input id="p1" type="password" name="password" required>
+            <input id="p2" type="password" name="password" placeholder="Re-Enter" required><br><br>
+            <button id="btn4" class="btnn">Submit</button>
+        </form>
+    </section>
+    <section id="s4" class="s">
+        <form id="f2">
+            <h2>Login</h2><br><br>
+            <label for="ee">Email: </label>
+            <input id="ee" type="email" name="email" required><br><br>
+            <label for="p3">Password: </label>
+            <input id="p3" type="password" name="password" required><br><br>
+            <button id="btn5" class='btnn'>Submit</button>
+        </form>
+    </section>
+    <section id="s5" class="s">
+    <div class="data">
+        <h1 id="h2">User Data</h1>
+    </div>
+    </section>
+    <!-- <script src="script.js"></script> -->
+    <script src="v0.js"></script>
+</body>
+</html>
