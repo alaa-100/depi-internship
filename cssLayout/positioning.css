@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color:green;
+    color:white;
+    text-align:center;
+    padding:5px 0px;
+    width:100%;
+    position:absolute;
+    top:0;
+}
+.sideBar{
+    width:17%;
+    background-color:rgb(245,245,247);
+    height:80%;
+    position:absolute;
+    top:70px;
+    left:0;
+    /* right:80%; */
+    padding-left:5px;
+    
+}
+.content{
+    width:83%;
+    background-color: rgb(227, 225, 228);
+    height:80%;
+    position:absolute;
+    top:70px;
+    right:0;
+    /* left:20%;  */
+    padding-left:8px;
+}
+.footer{
+    background-color: rgb(27, 26, 26);
+    color:white;
+    text-align:center;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+}

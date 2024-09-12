@@ -1,0 +1,31 @@
+body{
+    margin:0;
+}
+.main{
+    display:flex;
+}
+.header{
+    background-color:green;
+    color:white;
+    text-align:center;
+    width:100%;
+    padding:3px 0px;
+}
+.sideBar{
+    background-color:rgb(245,245,247);
+    width:17%;
+    padding-left:5px;
+}
+.content {
+    background-color: rgb(227, 225, 228);
+    width:83%;
+    height:81.6vh;
+    padding-left:5px;
+}
+.footer{
+    background-color: rgb(27, 26, 26);
+    color:white;
+    text-align:center;
+    width:100%;
+    padding:1px 0px;
+}
